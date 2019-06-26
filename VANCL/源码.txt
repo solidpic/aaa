@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/common.css" />
+	</head>
+	<body>
+		<div class="top cl">
+			<div id="toptop">
+			<p class="left mar1">您好,欢迎光临凡客诚品!&nbsp;
+				<a href="javascript:;">登录</a>
+			</p>
+			<div class="Vertical1 left mar2"></div>
+			<p class="left mar2">
+				<a href="javascript:;">注册</a>&nbsp;
+				<a href="javascript:;">我的订单</a>
+			</p>
+			<div class="left mar3">
+				<img src="img/凡客VANCL1_03.jpg"/>
+			</div>
+			<a href="javascript:;">
+				<p class="left mar4">网站广告</p>
+			</a>
+			<div class="left mar5">
+				<a href="javascript:;">
+					<img src="img/凡客VANCL2_03.jpg"/>
+				</a>
+			</div>
+			</div>
+		</div>
+		<div class="grabble cl">
+			<div class="right" style="width: 41%;">
+				<input value="搜“运动户外”，体验与众不同"  onblur="if(this.value == '')this.value='搜“运动户外”，体验与众不同';" 
+					onclick="if(this.value == '搜“运动户外”，体验与众不同')this.value='';" 
+					class="left searchbox" 
+					style="width: 57.3%;position: relative;z-index: 2;"/>
+				<div class="left red hunt" style="position: relative;z-index: -2;" >
+					<a href="javascript:;" style="color: white;">
+						<p>搜索</p>
+					</a>
+				</div>
+				<div class="left red shopping" id="on1">
+					<a href="javascript:;" id="div2">
+						<img src="img/凡客VANCL3_03.jpg" class="left pic1"/>
+						<p class="left paragraph1">购物车(0)</p>
+					</a>
+				</div>
+			</div>
+			<div style="float: right;">
+			<div id="div1" class="cl">
+				<div>
+					<p style="font-size: 14px;">您的购物车中没有任何商品</p>
+				</div>
+			</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var on1=document.getElementById('on1');
+			var div1=document.getElementById('div1');
+			var div2=document.getElementById('div2');
+			on1.onmouseover=function(){ 
+				div1.style.display='block';
+				on1.style.backgroundColor='white';
+				div1.style.background="white";
+				div1.style.opacity  =1;
+				div1.style.zIndex='-1';
+				div1.style.right='-488px';
+				div1.style.top='29px';
+				div2.style.color='#b81b22';
+			}
+			on1.onmouseout=function(){
+				div1.style.display='none';
+				on1.style.backgroundColor='#b81b22';
+				div2.style.color='white';
+			}
+		</script>
+		
+		
+		
+		<div class="HotSearch cl">
+			<div class="right" style="position: relative;z-index: -2;">
+				<p>热门搜索：&nbsp;<a href="">免烫衬衫</a>&nbsp;<a href="">羽绒服</a>&nbsp;<a href="">外套</a>&nbsp;<a href="">熊本熊</a>&nbsp;<a href="">运动户外</a>&nbsp;<a href="">帆布鞋</a>&nbsp;<a href="">水柔棉</a></p>
+			</div>
+		</div>
+		<div class="navigation">
+			<ul>
+				<li class="left">
+					<a href="javascript:;">
+						<img src="img/凡客VANCL4_11.jpg"/>
+					</a>
+				</li>
+				<li class="left li1">
+					<a href="">
+						首页
+					</a>
+				</li>
+				<li class="left li2">
+					<div class="Vertical2"></div>
+				</li>
+				
+				<li class="left li1 lii" id="a1">
+					<a href="javascript:;" id="font1">
+						衬衫
+						<div class="right" style="margin-top: -15px;">
+							<img src="img/凡客VANCL5_14.jpg"/>
+						</div>
+					</a>
+					<div id="dropdown1" class="dropdown" style="margin-top:-1px;">
+						<ul>
+							<li class="li8"><a href="">免烫</a></li>
+							<li class="li8">易打理</li>
+							<li class="li8">休闲</li>
+							<li class="li8">高支</li>
+							<li class="li8">法兰绒</li>
+							<li class="li8">牛津纺</li>
+							<li class="li8">青年布</li>
+							<li class="li8">牛仔</li>
+							<li class="li8">麻</li>
+							<li class="li8">水洗棉</li>
+							<li class="li8" style="margin-bottom: 15%;">泡泡纱</li>
+						</ul>
+					</div>
+				</li>
+				<script src="js/jquery3.3.1.js" type="text/javascript" charset="utf-8"></script>
+				<script type="text/javascript">
+//					$('#a1').mouseover(function(){
+//						$('#dropdown1').slideDown();
+//						$('#font1').css('color','#b81b22');
+//					});
+//					$('#a1').mouseout(function(){
+//						$('#dropdown1').slideUp();
+//						$('#font1').css('color','#808080');
+//					});
+				</script>
+				
+				
+				
+				
+				<li class="left li3">
+					<div class="Vertical2"></div>
+				</li>
+				<li class="left li1 lii" id="a2">
+					<a href="javascript:;" style="margin-left: -22%;" id="font2">
+						羽绒服
+					</a>
+					<div id="dropdown2" class="dropdown" style="margin-top:-1px;">
+						<ul>
+							<li class="li8">短款羽绒服</li>
+							<li class="li8" style="margin-bottom: 15%;">长款羽绒服</li>
+						</ul>
+					</div>
+				</li>
+				<script type="text/javascript">
+//					$('#a2').mouseover(function(){
+//						$('#dropdown2').slideDown();
+//						$('#font2').css('color','#b81b22');
+//					});
+//					$('#a2').mouseout(function(){
+//						$('#dropdown2').slideUp();
+//						$('#font2').css('color','#808080');
+//					});
+				</script>
+				
+				
+				
+				
+				<li class="left li4">
+					<div class="Vertical2"></div>
+				</li>
+				<li class="left li1 lii" id="a3">
+					<a href="javascript:;" style="margin-left: -12%;" id="font3">
+						卫衣
+					</a>
+					<div id="dropdown3" class="dropdown" style="margin-top:-1px;">
+						<ul>
+							<li class="li8">熊本熊</li>
+							<li class="li8">开衫</li>
+							<li class="li8">连帽</li>
+							<li class="li8">圆领</li>
+							<li class="li8" style="margin-bottom: 15%;">水柔棉</li>
+						</ul>
+					</div>
+				</li>
+				<script type="text/javascript">
+//					$('#a3').mouseover(function(){
+//						$('#dropdown3').slideDown();
+//						$('#font3').css('color','#b81b22');
+//					});
+//					$('#a3').mouseout(function(){
+//						$('#dropdown3').slideUp();
+//						$('#font3').css('color','#808080');
+//					});
+				</script>
+				
+				
+					
+				
+			    <li class="left li2">
+					<div class="Vertical2"></div>
+				</li>
+				<li class="left li1 lii" id="a4">
+					<a href="javascript:;" style="margin-left: -10%;" id="font4">
+						外套
+					</a>
+					<div id="dropdown4" class="dropdown" style="margin-top:-1px;">
+						<ul>
+							<li class="li8">运动户外</li>
+							<li class="li8">皮肤衣</li>
+							<li class="li8">西服</li>
+							<li class="li8">C9设计款</li>
+							<li class="li8">夹克</li>
+							<li class="li8">nautilus</li>
+							<li class="li8">大衣</li>
+							<li class="li8" style="margin-bottom: 15%;">羽绒服</li>
+						</ul>
+					</div>
+				</li>
+				<script type="text/javascript">
+//					$('#a4').mouseover(function(){
+//						$('#dropdown4').slideDown();
+//						$('#font4').css('color','#b81b22');
+//					});
+//					$('#a4').mouseout(function(){
+//						$('#dropdown4').slideUp();
+//						$('#font4').css('color','#808080');
+//					});
+				</script>
+				
+				
+				
+				
+				
+				
+				
+				
+				<li class="left li2">
+					<div class="Vertical2"></div>
+				</li>
+				<li class="left li1 lii" id="a5">
+					<a href="javascript:;" style="margin-left: -18%;" id="font5">
+						针织衫
+					</a>
+					<div id="dropdown5" class="dropdown" style="margin-top:-1px;">
+						<ul>
+							<li class="li8">空调衫</li>
+							<li class="li8">棉线衫</li>
+							<li class="li8">羊毛衫</li>
+							<li class="li8" style="margin-bottom: 15%;">羊绒衫</li>
+						</ul>
+					</div>
+				</li>
+				<script type="text/javascript">
+//					$('#a5').mouseover(function(){
+//						$('#dropdown5').slideDown();
+//						$('#font5').css('color','#b81b22');
+//					});
+//					$('#a5').mouseout(function(){
+//						$('#dropdown5').slideUp();
+//						$('#font5').css('color','#808080');
+//					});
+				</script>
+				
+				
+				
+				
+				
+				<li class="left li5">
+					<div class="Vertical2"></div>
+				</li>
+				<li class="left li1 lii" id="a6">
+					<a href="javascript:;" style="margin-left: -12%;" id="font6">
+						裤装
+					</a>
+					<div id="dropdown6" class="dropdown" style="margin-top:-1px;">
+						<ul>
+							<li class="li8">沙滩裤</li>
+							<li class="li8">针织裤</li>
+							<li class="li8">休闲裤</li>
+							<li class="li8">牛仔裤</li>
+							<li class="li8" style="margin-bottom: 15%;">运动裤</li>
+						</ul>
+					</div>
+				</li>
+				<script type="text/javascript">
+//					$('#a6').mouseover(function(){
+//						$('#dropdown6').slideDown();
+//						$('#font6').css('color','#b81b22');
+//					});
+//					$('#a6').mouseout(function(){
+//						$('#dropdown6').slideUp();
+//						$('#font6').css('color','#808080');
+//					});
+				</script>
+				
+				
+				
+				
+				
+				<li class="left li2">
+					<div class="Vertical2"></div>
+				</li>
+				<li class="left li1 lii" id="a7">
+					<a href="javascript:;" style="margin-left: 10%;" id="font7">
+						鞋
+					</a>
+					<div id="dropdown7" class="dropdown" style="margin-top:-1px;">
+						<ul>
+							<li class="li8">复古跑鞋</li>
+							<li class="li8">帆布鞋</li>
+							<li class="li8" style="margin-bottom: 15%;">休闲鞋</li>
+						</ul>
+					</div>
+				</li>
+				<script type="text/javascript">
+//					$('#a7').mouseover(function(){
+//						$('#dropdown7').slideDown();
+//						$('#font7').css('color','#b81b22');
+//					});
+//					$('#a7').mouseout(function(){
+//						$('#dropdown7').slideUp();
+//						$('#font7').css('color','#808080');
+//					});
+				</script>
+				
+				
+				
+				
+				
+				<li class="left li6">
+					<div class="Vertical2"></div>
+				</li>
+				<li class="left li1 lii" id="a8">
+					<a href="javascript:;" style="margin-left: -48%;" id="font8">
+						家居配饰
+					</a>
+					<div id="dropdown8" class="dropdown" style="margin-top:-1px;">
+						<ul>
+							<li class="li8">床品套件</li>
+							<li class="li8">被子</li>
+							<li class="li8">枕</li>
+							<li class="li8">家居服</li>
+							<li class="li8">家居鞋</li>
+							<li class="li8">背提包</li>
+							<li class="li8">拉杆箱</li>
+							<li class="li8">皮带钱包</li>
+							<li class="li8">帽子</li>
+							<li class="li8" style="margin-bottom: 15%;">毛巾</li>
+						</ul>
+					</div>
+				</li>
+				<script type="text/javascript">
+//					$('#a8').mouseover(function(){
+//						$('#dropdown8').slideDown();
+//						$('#font8').css('color','#b81b22');
+//					});
+//					$('#a8').mouseout(function(){
+//						$('#dropdown8').slideUp();
+//						$('#font8').css('color','#808080');
+//					});
+				</script>
+				
+				
+				
+				
+				
+				<li class="left li7">
+					<div class="Vertical2"></div>
+				</li>
+				<li class="left li1 lii" id="a9">
+					<a href="javascript:;" style="margin-left: -32%;"id="font9" >
+						内衣袜品
+					</a>
+					<div id="dropdown9" class="dropdown" style="margin-top:-1px;">
+						<ul>
+							<li class="li8">船袜</li>
+							<li class="li8">中筒袜</li>
+							<li class="li8">连裤袜</li>
+							<li class="li8">内衣裤</li>
+							<li class="li8">围巾披肩</li>
+							<li class="li8" style="margin-bottom: 15%;">童装</li>
+						</ul>
+					</div>
+				</li>
+				<script type="text/javascript">
+//					$('#a9').mouseover(function(){
+//						$('#dropdown9').slideDown();
+//						$('#font9').css('color','#b81b22');
+//					});
+//					$('#a9').mouseout(function(){
+//						$('#dropdown9').slideUp();
+//						$('#font9').css('color','#808080');
+//					});
+					$('.lii').mouseenter(function(){
+						$(this).find('.dropdown').slideDown();
+						$(this).find('a').css('color','#b81b22');
+					});
+					$('.lii').mouseleave(function(){
+						$(this).find('.dropdown').slideUp();
+						$(this).find('a').css('color','#808080');
+					});
+				</script>
+			</ul>
+		</div>
+		<div id="container">
+			<div id="list" style="left: -1200px;">
+				<img src="img/10.jpg" alt="1" />
+                <img src="img/6.jpg" alt="1" />
+                <img src="img/7.jpg" alt="2" />
+                <img src="img/8.jpg" alt="3" />
+                <img src="img/9.jpg" alt="4" />
+                <img src="img/10.jpg" alt="5" />
+                <img src="img/6.jpg" alt="5" />
+			</div>
+			<div id="buttons">
+				<span index="1" class="on"></span>
+				<span index="2"></span>
+				<span index="3"></span>
+				<span index="4"></span>
+				<span index="5"></span>
+			</div>
+			<a href="javascript:;" id="prev" class="arrow">&lt;</a>
+            <a href="javascript:;" id="next" class="arrow">&gt;</a>
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		window.onload = function() {
+			var list = document.getElementById('list');
+            var prev = document.getElementById('prev');
+            var next = document.getElementById('next');
+            
+            function animate(offset) {
+                var newLeft = parseInt(list.style.left) + offset;
+                list.style.left = newLeft + 'px';
+                if(newLeft<-6000)
+                {
+                	list.style.left = -1200 + 'px';
+                }
+                if(newLeft>-1200)
+                {
+                	list.style.left = -6000 + 'px';
+                }
+                //鼠标划过图片停止
+                list.onmouseover=function()
+                {
+                	clearInterval(timer);
+                }
+                //鼠标划出继续滚动
+                list.onmouseout=function()
+                {
+                	play();
+                }
+            }
+
+            prev.onclick = function()
+            {
+                animate(1200);
+            }
+            next.onclick = function()
+            {
+                animate(-1200);
+            }
+            
+            
+            var buttons = document.getElementById('buttons').getElementsByTagName('span');
+            var index = 1;
+
+            function buttonsShow(){
+                //清除之前的样式
+                for (var i = 0; i < buttons.length; i++) {
+                    if (buttons[i].className == 'on') {
+                        buttons[i].className = '';
+                    }
+                }
+                //从0开始index-1
+                buttons[index - 1].className = 'on';
+            }
+
+            prev.onclick = function(){
+                index -= 1;
+                if (index < 1) {
+                    index = 5;
+                }
+                buttonsShow();
+                animate(1200);
+            }
+            next.onclick = function(){
+                //对五个小圆点作出判断
+                index += 1;
+                if (index > 5) {
+                    index = 1;
+                }
+                buttonsShow();
+                animate(-1200);
+            }
+            for (var i = 0; i < buttons.length; i++)
+            {
+                (function(i) {
+//                  buttons[i].onclick = function() {
+//                      var clickIndex = parseInt(this.getAttribute('index'));
+//                      var offset = 1200 * (index - clickIndex); 
+//                      animate(offset);
+//                      index = clickIndex;
+//                      buttonsShow();
+//                  }
+        buttons[i].onmouseover = function()
+        {
+                        var clickIndex = parseInt(this.getAttribute('index'));
+                        var offset = 1200 * (index - clickIndex); 
+                        animate(offset);
+                        index = clickIndex;
+                        buttonsShow();
+                        clearInterval(timer);
+                    }
+                })(i)
+            }
+        }
+		var timer;
+		function play() {
+		 	timer = setInterval(function () {
+		 		prev.onclick()
+		 	}, 1500)
+		 	var container = document.getElementById('container');
+ 
+            function stop() {
+                clearInterval(timer);
+            }
+            container.onmouseover = stop;
+            container.onmouseout = play;
+		}
+		play(); 
+		
+		function play() {
+                //向右切换图片
+                timer = setInterval(function () {
+                    next.onclick();
+                }, 3000)
+            }
+		
+		
+	</script>
+	
+	<div id="roof">
+		<a href="javascript:;">
+			<img src="img/50.jpg"/>
+		</a>
+	</div>
+	<div id="countdown" class="cl">
+		<a href="javascript:;">
+			<h2 class="new_miaosha_title"> 
+				<span id="seckill_2017_timecounting">
+					<em class="wordBox" style="float: left;"></em>
+					<div id="hour">
+					14
+					</div>
+					<div id="minute">
+					13
+					</div>
+					<div id="second">
+					29
+					<div>
+				</span> 
+			</h2>
+		</a>
+	</div>
+	<script type="text/javascript">
+		function getTime(){
+			var endTime=new Date('2019/02/05 00:00:00');
+			var nowTime=new Date();
+			var t=endTime.getTime()-nowTime.getTime();
+			var h=Math.floor(t/1000/60/60%24);//小时数(毫秒/1000=秒/60=分/60=时%24(对天数取余得小时))
+			var m=Math.floor(t/1000/60%60);//分钟数 (得到秒数后直接对小时取余)
+			var s=Math.floor(t/1000%60);//秒数(直接对分钟取余得小数)
+			var hour=document.getElementById("hour").innerHTML=h;
+			var minute=document.getElementById("minute").innerHTML=m;
+			var second=document.getElementById("second").innerHTML=s;
+		} 
+		setInterval(getTime,1000);
+	</script>
+	
+	
+	
+	<div id="head">
+		<div>
+			<span id="spsp" style="width: 10px; height: 10px;background: black;display: none;"></span>
+			<img src="img/12.jpg"/ style="width: 19%;">
+			<img src="img/13.jpg"/ style="width: 19%;" id="div3">
+			<img src="img/14.jpg"/ style="width: 19%;" id="div3">
+			<img src="img/15.jpg"/ style="width: 19%;" id="div3">
+			<img src="img/16.jpg"/ style="width: 19%;" id="div3">
+		</div>
+		<!--<script type="text/javascript">
+			var div3=document.getElementById('div3');
+			var spsp=document.getElementById('spsp');
+			div3.onmouseover=function(){
+				spsp.style.display='block';
+			}
+		</script>-->
+		
+		<div id="div4" class="cl">
+			<div id="clothes" class="left">
+				<p id="paragraph">N3B大衣棉服 厚棉 C9 男款 军绿色</p>
+				<span id="price">
+					<em>￥789</em>
+				</span>
+				<span id="price1">
+					<em>￥198</em>
+					<span id="price2">
+						充值后
+						<em style="color: #b81b22; font-size: 25px;">99</em>
+						元
+					</span>
+				</span>
+			</div>
+			<div id="clothes1" class="left">
+				<p id="paragraph">棒球夹克 宇航刺绣 厚棉 C9 军绿色</p>
+				<span id="price">
+					<em>￥598</em>
+				</span>
+				<span id="price1">
+					<em>￥198</em>
+					<span id="price2">
+						充值后
+						<em style="color: #b81b22; font-size: 25px;">99</em>
+						元
+					</span>
+				</span>
+			</div>
+			<div id="clothes1" class="left">
+				<p id="paragraph">凡客夹克 双帽双拉链 轻弹 男款 宝蓝色</p>
+				<span id="price">
+					<em>￥298</em>
+				</span>
+				<span id="price1">
+					<em>￥138</em>
+					<span id="price2">
+						充值后
+						<em style="color: #b81b22; font-size: 25px;">69</em>
+						元
+					</span>
+				</span>
+			</div>
+			<div id="clothes1" class="left">
+				<p id="paragraph">凡客卫衣 中空棉拉链开衫 男款 淡花灰</p>
+				<span id="price">
+					<em>￥298</em>
+				</span>
+				<span id="price1">
+					<em>￥78</em>
+					<span id="price2">
+						充值后
+						<em style="color: #b81b22; font-size: 25px;">39</em>
+						元
+					</span>
+				</span>
+			</div>
+			<div id="clothes1" class="left">
+				<p id="paragraph">凡客衬衫 法兰绒 领尖扣 男款 藏青</p>
+				<span id="price">
+					<em>￥928</em>
+				</span>
+				<span id="price1">
+					<em>￥258</em>
+					<span id="price2">
+						充值后
+						<em style="color: #b81b22; font-size: 25px;">129</em>
+						元
+					</span>
+				</span>
+			</div>
+		</div>
+	</div>
+	
+	<div id="centre" class="cl">
+		<p id="font10">优选推荐</p>
+		<ul style="margin-top: 3%;">
+			<li id="li_one">
+				<a href="javascript:;" id="a_1">
+					<img src="img/17.jpg"/ id="pic_one">
+					<h3>
+						4.0日式免烫衬衫
+						<span>充值购买更优惠</span>
+					</h3>
+				</a>
+			</li>
+			<li id="li_two">
+				<a href="javascript:;">
+					<img src="img/18.jpg"/>
+					<h3>
+						牛仔纺衬衫
+						<span>充值购买相当于&nbsp;69元起</span>
+					</h3>
+				</a>
+				<div style="margin-top: 4%;">
+					<a href="javascript:;">
+						<img src="img/19.jpg"/>
+						<h3>
+							中空棉拉链开衫
+							<span>充值购买更优惠</span>
+						</h3>
+					</a>
+				</div>
+			</li>
+			<li id="li_three">
+				<a href="javascript:;">
+					<img src="img/20.jpg" id="pic_three"/>
+					<h3>
+						外套
+						<span>充值购买更优惠</span>
+					</h3>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="centre" class="cl">
+		<ul>
+			<li id="li_one">
+				<a href="javascript:;">
+					<img src="img/21.jpg"/ id="pic_one">
+					<h3>
+						羽绒服
+						<span>充值购买更优惠</span>
+					</h3>
+				</a>
+			</li>
+			<li id="li_two">
+				<a href="javascript:;">
+					<img src="img/22.jpg"/>
+					<h3>
+						熊本熊卫衣
+						<span>充值购买相当于&nbsp;69元起</span>
+					</h3>
+				</a>
+				<div style="margin-top: 4%;">
+					<a href="javascript:;">
+						<img src="img/23.jpg"/>
+						<h3>
+							针织衫
+							<span>充值购买更优惠</span>
+						</h3>
+					</a>
+				</div>
+			</li>
+			<li id="li_three">
+				<a href="javascript:;">
+					<img src="img/24.jpg" id="pic_three"/>
+					<h3>
+						户外运动
+						<span>充值购买更优惠</span>
+					</h3>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="centre" class="cl">
+		<p id="font10">下装推荐</p>
+		<ul style="margin-top: 3%;">
+			<li id="li_four">
+				<a href="javascript:;">
+					<img src="img/25.jpg"/>
+					<h3>
+						休闲裤
+						<span>充值购买相当于&nbsp;39元起</span>
+					</h3>
+				</a>
+			</li>
+			<li id="li_five">
+				<a href="javascript:;">
+					<img src="img/26.jpg"/>
+					<h3>
+						牛仔裤
+						<span>充值购买相当于&nbsp;69元起</span>
+					</h3>
+				</a>
+			</li>
+			<li id="li_five">
+				<a href="javascript:;">
+					<img src="img/27.jpg"/>
+					<h3>
+						收口慢跑休闲裤
+						<span>充值购买相当于&nbsp;79元起</span>
+					</h3>
+				</a>
+			</li>
+			<li id="li_five">
+				<a href="javascript:;">
+					<img src="img/28.jpg"/>
+					<h3>
+						针织裤
+						<span>充值购买相当于&nbsp;39元起</span>
+					</h3>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="centre" class="cl">
+		<p id="font10">更多精品</p>
+		<ul style="margin-top: 3%;">
+			<li id="li_six">
+				<a href="javascript:;">
+					<img src="img/29.jpg"/>
+				</a>
+			</li>
+			<li id="li_seven">
+				<a href="javascript:;">
+					<img src="img/30.jpg"/>
+				</a>
+			</li>
+			<li id="li_eight">
+				<a href="javascript:;">
+					<img src="img/31.jpg"/>
+				</a>
+			</li>
+		</ul>
+		<ul>
+			<li id="li_nine">
+				<a href="javascript:;">
+					<img src="img/32.jpg"/>
+				</a>
+			</li>
+			<li id="li_ten">
+				<a href="javascript:;">
+					<img src="img/33.jpg"/>
+				</a>
+			</li>
+			<li id="li_eleven">
+				<a href="javascript:;">
+					<img src="img/34.jpg"/>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="service">
+		<div id="serviceTab">
+			<ul>
+				<li id="serviceli1">
+					<a href="javascript:;">
+						<p id="onlinePic">
+							<img src="img/35.jpg"/>
+						</p>
+						<p id="onlineTime">7X9小时在线客服</p>
+					</a>
+				</li>
+				<li id="serviceli2">
+					<a href="javascript:;">
+						<p id="numseven">
+							<img src="img/36.jpg"/>
+						</p>
+						<p id="servicepp">7天内退货</p>
+						<p id="servicepp">购物满199元免运费</p>
+					</a>
+				</li>
+				<li id="serviceP">
+					<p>
+						<img src="img/37.jpg"/>
+					</p>
+					<p>
+						扫描下载
+						<em>凡客</em>
+						客户端
+					</p>
+				</li>
+			</ul>
+		</div>
+		<div id="serviceothers">
+			<ul>
+				<li>
+					<a href="javascript:;">关于凡客</a>
+				</li>
+				<li>
+					<a href="javascript:;">新手指南</a>
+				</li>
+				<li>
+					<a href="javascript:;">配送范围及时间</a>
+				</li>
+				<li>
+					<a href="javascript:;">支付方法</a>
+				</li>
+				<li>
+					<a href="javascript:;">售后服务</a>
+				</li>
+				<li id="none">
+					<a href="javascript:;">帮助中心</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="footerTab">
+			<p id="footerP">Copyright 2007 - 2018 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+			<p id="footerP">凡客诚品（北京）科技有限公司</p>
+		</div>
+	</div>
+	<div id="base">
+		<ul>
+			<li>
+				<a href="javascript:;">
+					<img src="img/38.jpg"/>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="img/39.jpg"/>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="img/40.jpg"/>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="img/41.jpg"/>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="img/42.jpg"/>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<img src="img/43.jpg"/>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="suspension" style="position: fixed;right: 10px;bottom: 20px;z-index: 10;">
+		<ul>
+			<li id="download">
+				<a href="javascript:;">
+					<img src="img/47.jpg"/>
+				</a>
+			</li>
+			<li id="mysql">
+				<a href="javascript:;">
+					<img src="img/48.jpg"/>
+				</a>
+			</li>
+			<li id="returntop">
+				<a href="javascript:;">
+					<img src="img/49.jpg"/>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		var returntop=document.getElementById('returntop');
+		returntop.onclick=function(){
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+	
+	
+	<div id="ppppp" style="width: 100%;height: 100%;margin:  0 auto; display: none;">
+		<div style="position: absolute;z-index: -3; text-align: center; width: 100%;height: 100%;margin-top: 30px;">
+			<img src="img/10.jpg"/>
+		</div>
+		<button id="shan_1" style="float: right; font-size: 24px; ">
+			&otimes;
+		</button>
+		<div style="width: 120px;height: 615px;border: 1px solid white; float: right; margin-top: 50px;">
+			<div id="top111" class="arrow111">
+				&and;
+			</div>
+			<div style="margin-top: 60px;">
+				<img src="img/12.jpg" style="width: 120px;"/>
+			</div>
+			<div >
+				<img src="img/13.jpg" style="width: 120px;"/>
+			</div>
+			<div >
+				<img src="img/14.jpg" style="width: 120px;"/>
+			</div>
+			<div >
+				<img src="img/15.jpg" style="width: 120px;"/>
+			</div>
+			<div id="bottom111" class="arrow111">
+				&or;
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div id="Boutique1" style="width: 100%;height: 100%;margin:  0 auto; display: none;">
+		<div style="position: absolute;z-index: -3; text-align: center; width: 100%;height: 100%;margin-top: 30px;">
+			<img src="img/17.jpg"/>
+		</div>
+		<button id="shan_2" style="float: right; font-size: 24px; ">
+			&otimes;
+		</button>
+	</div>
+	
+	
+	<script type="text/javascript">
+//		function fullScreen(el) {
+//			var rfs = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullScreen,wscript;  
+//			if(typeof rfs != "undefined" && rfs) {
+//				rfs.call(el);
+//				return;
+//			}
+//			if(typeof window.ActiveXObject != "undefined") {
+//				wscript = new ActiveXObject("WScript.Shell");
+//				if(wscript) {
+//					wscript.SendKeys("{F11}");
+//				}
+//			}
+//		}
+//		function exitFullScreen(el) {
+//			var el= document,
+//			cfs = el.cancelFullScreen || el.webkitCancelFullScreen || el.mozCancelFullScreen || el.exitFullScreen,wscript;
+//			if (typeof cfs != "undefined" && cfs) {
+//				cfs.call(el);
+//				return;
+//			}
+//			if (typeof window.ActiveXObject != "undefined") {
+//				wscript = new ActiveXObject("WScript.Shell");
+//				if (wscript != null) {
+//					wscript.SendKeys("{F11}");
+//				}
+//			}
+//		}
+//		var mysql=document.getElementById('mysql');
+//		var shan_1=document.getElementById('shan_1');
+//		var shan_2=document.getElementById('shan_2');
+		var a_1=document.getElementById('a_1');
+		a_1.onclick=function(){
+			//fullScreen(Boutique1);
+			var rfs = el.requestFullScreen || el.webkitRequestFullScreen || el.mozRequestFullScreen || el.msRequestFullScreen,wscript;
+			rfs.call(Boutique1);
+			Boutique1.style.display='block';
+		}
+//		shan_2.onclick=function(){
+//			exitFullScreen();
+//			Boutique1.style.display='none';
+//		}
+//		mysql.onclick=function(){
+//			fullScreen(ppppp);
+//			ppppp.style.display='block';
+//		}
+//		shan_1.onclick=function(){
+//			exitFullScreen();
+//			ppppp.style.display='none';
+//			
+//		}
+
+
+//	var a_1=document.getElementById('a_1');
+//	a_1.onclick=function(){
+////		fullScreen(Boutique1);
+//		Boutique1.requestFullscreen();
+//		Boutique1.style.display='block';
+//	}
+//
+//
+//var marioVideo = document.getElementById("Boutique1");
+//if (marioVideo.requestFullscreen) {
+//document.addEventListener("fullscreenchange", function () {
+//  if (document.fullscreenElement != null) {
+//    console.info("Went full screen");
+//  } else {
+//    console.info("Exited full screen");
+//  }
+//});
+//}
+//else if (marioVideo.msRequestFullscreen) {
+//document.addEventListener("MSFullscreenChange", function () {
+//  if (document.msFullscreenElement != null) {
+//    console.info("Went full screen");
+//  } else {
+//    console.info("Exited full screen");
+//  }
+//});
+//}
+
+
+
+
+
+
+
+
+	</script>
+</html>
